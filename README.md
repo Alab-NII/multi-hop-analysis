@@ -39,4 +39,4 @@ We follow the steps in https://github.com/yuwfan/HGN to obtain file .gz data fro
 
 ## Reproduce the results
 - Donwload our checkpoints
-- Run file predict_dev_all_settings.sh
+- Run file ``` predict_dev_all_settings.sh ```
