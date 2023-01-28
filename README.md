@@ -15,29 +15,28 @@ We follow the steps in https://github.com/yuwfan/HGN to obtain file .gz data fro
 ## How to Run the Code
 
 ### Set up environment
-bash install_packages.sh
+``` bash install_packages.sh ```
 
 
 ### Prepare data for training
 - Download bigbird-roberta-base model from this link: https://huggingface.co/google/bigbird-roberta-base
 - Edit variables: data_dir, pretrained_model_dir, data_file
 - Run: 
-python3 preprocess.py
+``` python3 preprocess.py ```
 
 
 ### Training 
 - Run
-python3 main.py
+``` python3 main.py ```
 
 
 ### For evaluation on dev file
 - Run
-python3 predictor.py $checkpoint $data_file
+``` python3 predictor.py $checkpoint $data_file ```
 
+``` python3 postprocess.py $prediction_file $processed_data_file $original_data_file ```
 
-python3 postprocess.py $prediction_file $processed_data_file $original_data_file
-
-python3 official_evaluation.py path/to/prediction path/to/gold
+``` python3 official_evaluation.py path/to/prediction path/to/gold ```
 
 
 ## Reproduce the results
