@@ -38,9 +38,9 @@ We follow the steps in https://github.com/yuwfan/HGN to obtain file .gz data fro
 
 
 ## Reproduce the results
-- Donwload our checkpoints
+- Download our checkpoints
 - Run file ``` predict_dev_all_settings.sh ```
 
 ## References
-- We base on [HGN](https://github.com/yuwfan/HGN) for data preprocessing
+- We base on [HGN](https://github.com/yuwfan/HGN) for data preprocessing.
 - We re-use the class Example from the HGN model and update it to work with our dataset.
