@@ -26,12 +26,10 @@ We follow the steps in https://github.com/yuwfan/HGN to obtain file .gz data fro
 
 
 ### Training 
-- Run
 ``` python3 main.py ```
 
 
 ### For evaluation on dev file
-- Run
 ``` python3 predictor.py $checkpoint $data_file ```
 
 ``` python3 postprocess.py $prediction_file $processed_data_file $original_data_file ```
