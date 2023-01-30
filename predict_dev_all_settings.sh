@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
    
-INPUTS=("1task" "2task_ans_sf_1_4" "2task_ans_rea_1_15" "3task_1_4_15") #  
+INPUTS=("1task" "2task_ans_sf" "2task_ans_rea" "3task") #  
 for input in ${INPUTS[*]}; do
     name="dev"
 
@@ -22,7 +22,7 @@ for input in ${INPUTS[*]}; do
 
     file2="${setting}_${name}.preds.processed"
 
-    python3 official_evaluation.py $CHECKPOINTS/$file2 $DATA_ORIGINAL $input
+    python3 official_evaluation.py $CHECKPOINTS/$file2 $DATA_ORIGINAL
 
     echo "Finish: ${name}"
 

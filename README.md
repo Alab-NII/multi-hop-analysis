@@ -39,7 +39,7 @@ We follow the steps in https://github.com/yuwfan/HGN to obtain file .gz data fro
 
 ## Reproduce the results
 - Download our [checkpoints](https://www.dropbox.com/scl/fo/o9l8d8nrshu6z6cvmkof6/h?dl=0&rlkey=qb6o9c33yfahr3y4w2vwgpxo6)
-- Run file ``` predict_dev_all_settings.sh ```
+- Run file ``` predict_dev_all_settings.sh ``` (Note: if you want to use this file for the test set in 2Wiki, comment line #25 about evaluation)
 
 ## References
 - We base on [HGN](https://github.com/yuwfan/HGN) for data preprocessing.
