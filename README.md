@@ -4,10 +4,10 @@ Multi-hop Question Answering - EACL 2023 (Findings).
 
 ## Dataset Information
 We use two datasets in our experiments: 2WikiMultihopQA and HotpotQA-small
-- [Raw data and pre-process data (file .gz) for dev and train of 2Wiki]()
-- [Raw data and pre-process data for dev and train of HotpotQA-small]()
-- [Debiased data]()
-- [Adversarial data]()
+- [Raw data and pre-process data (file .gz) for dev and train of 2Wiki](https://www.dropbox.com/scl/fo/44k9ay42twxax4l7r4ppi/h?dl=0&rlkey=zpcbeaeg5c2ls4b99fgv1yyq5)
+- [Raw data and pre-process data for dev and train of HotpotQA-small](https://www.dropbox.com/scl/fo/cs3h9le399e177aqojhth/h?dl=0&rlkey=ncm6a3l9zlcelxpm888kdjenq)
+- [Debiased data](https://www.dropbox.com/scl/fo/fccc2tjkvmmfj0fssty48/h?dl=0&rlkey=0bd7jn6w6g65nybdg8bfxizxl)
+- [Adversarial data](https://www.dropbox.com/scl/fo/8lic16lp1x6d1iaxn68ed/h?dl=0&rlkey=kj8bfcjhuw1l0iljyjtodm07w)
 
 We follow the steps in https://github.com/yuwfan/HGN to obtain file .gz data from raw data.
 
@@ -38,9 +38,10 @@ We follow the steps in https://github.com/yuwfan/HGN to obtain file .gz data fro
 
 
 ## Reproduce the results
-- Download our checkpoints
+- Download our [checkpoints](https://www.dropbox.com/scl/fo/o9l8d8nrshu6z6cvmkof6/h?dl=0&rlkey=qb6o9c33yfahr3y4w2vwgpxo6)
 - Run file ``` predict_dev_all_settings.sh ```
 
 ## References
 - We base on [HGN](https://github.com/yuwfan/HGN) for data preprocessing.
 - We re-use the class Example from the HGN model and update it to work with our dataset.
+
