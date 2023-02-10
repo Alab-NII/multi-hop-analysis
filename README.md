@@ -4,10 +4,10 @@ Multi-hop Question Answering - EACL 2023 (Findings).
 
 ## Dataset Information
 We use two datasets in our experiments: 2WikiMultihopQA and HotpotQA-small
-- [Raw data and pre-process data (file .gz) for dev and train of 2Wiki](https://www.dropbox.com/scl/fo/44k9ay42twxax4l7r4ppi/h?dl=0&rlkey=zpcbeaeg5c2ls4b99fgv1yyq5)
-- [Raw data and pre-process data for dev and train of HotpotQA-small](https://www.dropbox.com/scl/fo/cs3h9le399e177aqojhth/h?dl=0&rlkey=ncm6a3l9zlcelxpm888kdjenq)
-- [Debiased data](https://www.dropbox.com/scl/fo/fccc2tjkvmmfj0fssty48/h?dl=0&rlkey=0bd7jn6w6g65nybdg8bfxizxl)
-- [Adversarial data](https://www.dropbox.com/scl/fo/8lic16lp1x6d1iaxn68ed/h?dl=0&rlkey=kj8bfcjhuw1l0iljyjtodm07w)
+- [Pre-process data (file .gz) for dev and train of 2Wiki](https://www.dropbox.com/s/dcrr5m0sxhexr84/2wiki.zip?dl=0) (Please download raw data from the Github repository of the [2WikiMultihopQA](https://github.com/Alab-NII/2wikimultihop) dataset)
+- [Raw data and pre-process data for dev and train of HotpotQA-small](https://www.dropbox.com/s/uqir2a5pkvi1383/hotpotqa-small.zip?dl=0)
+- [Debiased data](https://www.dropbox.com/s/34551va9ydr8zgf/debiased-data.zip?dl=0)
+- [Adversarial data](https://www.dropbox.com/s/dkcm3m16u13lf29/adversarial-data.zip?dl=0)
 
 We follow the steps in https://github.com/yuwfan/HGN to obtain file .gz data from raw data.
 
@@ -38,7 +38,7 @@ We follow the steps in https://github.com/yuwfan/HGN to obtain file .gz data fro
 
 
 ## Reproduce the results
-- Download our [checkpoints](https://www.dropbox.com/scl/fo/o9l8d8nrshu6z6cvmkof6/h?dl=0&rlkey=qb6o9c33yfahr3y4w2vwgpxo6)
+- Download our [checkpoints](https://www.dropbox.com/s/b0d65poctqs38w8/checkpoints.zip?dl=0)
 - Run file ``` predict_dev_all_settings.sh ``` (Note: if you want to use this file for the test set in 2Wiki, comment line #25 about evaluation)
 
 ## References
