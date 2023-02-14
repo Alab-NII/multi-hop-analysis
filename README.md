@@ -1,5 +1,5 @@
-This is the repository for the paper: Analyzing the Effectiveness of the Underlying Reasoning Tasks in
-Multi-hop Question Answering - EACL 2023 (Findings).
+This is the repository for the paper: [Analyzing the Effectiveness of the Underlying Reasoning Tasks in
+Multi-hop Question Answering](https://arxiv.org/abs/2302.05963) - EACL 2023 (Findings).
 
 
 ## Dataset Information
